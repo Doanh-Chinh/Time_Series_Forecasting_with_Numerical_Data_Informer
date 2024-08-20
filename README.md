@@ -23,13 +23,15 @@ A Deep Learning Approach to Wind Speed Forecasting
 
 ## Reproducibility
 - run Model_Inference.py with anaconda env following script below:
-# A2M_TW79
+``` diff
 - python Model_Inference.py --mode a2m_79 --out_len 6
+```
 
 ## Train model
 - run TW_ALL_Informer.py with anaconda env following script below:
-# A2M_TW79
+``` diff
 - python TW_ALL_Informer.py --dp a2m_79 --in_len 216 --out_len 24
+```
 
 ### More parameter information please refer to `TW_ALL_Informer.py`. The detail is listed here:
 - "--dp", required=False, default="a2m_79", help="path to the dataset"
