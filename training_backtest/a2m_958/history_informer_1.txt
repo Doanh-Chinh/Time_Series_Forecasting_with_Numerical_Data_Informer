@@ -1,0 +1,874 @@
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 1
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_1
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_1
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.052018803}
+mae: 1.36
+maePerMean: 10.5
+mse: 2.9
+mape: 10.91
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>1<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 2
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-13 00:00:00
+val_end: 2023-07-14 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_2
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_2
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.042284478}
+mae: 1.11
+maePerMean: 10.82
+mse: 1.87
+mape: 11.49
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>2<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 3
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-12 00:00:00
+val_end: 2023-07-13 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_3
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_3
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.03895487}
+mae: 1.02
+maePerMean: 20.06
+mse: 1.6
+mape: 21.56
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>3<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 4
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-11 00:00:00
+val_end: 2023-07-12 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_4
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_4
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.05956326}
+mae: 1.56
+maePerMean: 18.97
+mse: 4.28
+mape: 19.41
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>4<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 5
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-10 00:00:00
+val_end: 2023-07-11 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_5
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_5
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.068389006}
+mae: 1.79
+maePerMean: 24.74
+mse: 6.03
+mape: 34.63
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>5<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 6
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-09 00:00:00
+val_end: 2023-07-10 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_6
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_6
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.061528463}
+mae: 1.61
+maePerMean: 21.38
+mse: 4.47
+mape: 25.32
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>6<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 7
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-08 00:00:00
+val_end: 2023-07-09 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_7
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_7
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.04793108}
+mae: 1.26
+maePerMean: 27.13
+mse: 2.41
+mape: 28.5
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>7<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 8
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-07 00:00:00
+val_end: 2023-07-08 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_8
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_8
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.04899599}
+mae: 1.28
+maePerMean: 18.69
+mse: 2.68
+mape: 19.73
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>8<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 9
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-06 00:00:00
+val_end: 2023-07-07 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_9
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_9
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.048028607}
+mae: 1.26
+maePerMean: 17.3
+mse: 2.57
+mape: 22.45
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>9<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 10
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-05 00:00:00
+val_end: 2023-07-06 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_10
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_10
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.0505368}
+mae: 1.32
+maePerMean: 21.5
+mse: 2.9
+mape: 25.98
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>10<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 11
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-04 00:00:00
+val_end: 2023-07-05 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_11
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_11
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.0447004}
+mae: 1.17
+maePerMean: 16.44
+mse: 2.27
+mape: 17.53
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>11<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 12
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-03 00:00:00
+val_end: 2023-07-04 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_12
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_12
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.03575268}
+mae: 0.94
+maePerMean: 44.43
+mse: 1.35
+mape: 66.77
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>12<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 13
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-02 00:00:00
+val_end: 2023-07-03 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_13
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_13
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.032298505}
+mae: 0.85
+maePerMean: 42.67
+mse: 1.16
+mape: 122.12
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>13<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 14
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-07-01 00:00:00
+val_end: 2023-07-02 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_14
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_14
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.026206827}
+mae: 0.69
+maePerMean: 43.48
+mse: 0.67
+mape: 48.77
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>14<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 15
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-30 00:00:00
+val_end: 2023-07-01 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_15
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_15
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.03690065}
+mae: 0.97
+maePerMean: 19.4
+mse: 1.33
+mape: 19.22
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>15<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 16
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-29 00:00:00
+val_end: 2023-06-30 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_16
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_16
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.03293659}
+mae: 0.86
+maePerMean: 8.8
+mse: 1.6
+mape: 9.61
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>16<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 17
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-28 00:00:00
+val_end: 2023-06-29 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_17
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_17
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.045060705}
+mae: 1.18
+maePerMean: 15.24
+mse: 3.05
+mape: 16.09
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>17<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 18
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-27 00:00:00
+val_end: 2023-06-28 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_18
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_18
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.04234922}
+mae: 1.11
+maePerMean: 21.0
+mse: 2.04
+mape: 31.2
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>18<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 19
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-26 00:00:00
+val_end: 2023-06-27 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_19
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_19
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.040947434}
+mae: 1.07
+maePerMean: 10.7
+mse: 1.67
+mape: 10.41
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>19<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 20
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-25 00:00:00
+val_end: 2023-06-26 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_20
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_20
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.043424677}
+mae: 1.14
+maePerMean: 29.2
+mse: 2.77
+mape: 66.18
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>20<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 21
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-24 00:00:00
+val_end: 2023-06-25 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_21
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_21
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.023605501}
+mae: 0.62
+maePerMean: 33.73
+mse: 0.68
+mape: 66.02
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>21<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 22
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-23 00:00:00
+val_end: 2023-06-24 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_22
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_22
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.030815193}
+mae: 0.81
+maePerMean: 40.12
+mse: 1.12
+mape: 51.65
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>22<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 23
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-22 00:00:00
+val_end: 2023-06-23 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_23
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_23
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.034221157}
+mae: 0.9
+maePerMean: 37.62
+mse: 1.12
+mape: 51.09
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>23<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 24
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-21 00:00:00
+val_end: 2023-06-22 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_24
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_24
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.044114795}
+mae: 1.16
+maePerMean: 26.1
+mse: 2.0
+mape: 46.6
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>24<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 25
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-20 00:00:00
+val_end: 2023-06-21 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_25
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_25
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.037220865}
+mae: 0.98
+maePerMean: 33.77
+mse: 1.29
+mape: 63.75
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>25<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 26
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-19 00:00:00
+val_end: 2023-06-20 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_26
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_26
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.043927938}
+mae: 1.15
+maePerMean: 39.83
+mse: 2.46
+mape: 171.75
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>26<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 27
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-18 00:00:00
+val_end: 2023-06-19 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_27
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_27
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.030171147}
+mae: 0.79
+maePerMean: 21.06
+mse: 0.92
+mape: 30.4
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>27<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 28
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-17 00:00:00
+val_end: 2023-06-18 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_28
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_28
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.029161626}
+mae: 0.76
+maePerMean: 39.43
+mse: 0.79
+mape: 49.26
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>28<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 29
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-16 00:00:00
+val_end: 2023-06-17 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_29
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_29
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.026455244}
+mae: 0.69
+maePerMean: 44.24
+mse: 0.68
+mape: 92.52
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>29<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 30
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-15 00:00:00
+val_end: 2023-06-16 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_30
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_30
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.022219092}
+mae: 0.58
+maePerMean: 24.01
+mse: 0.57
+mape: 29.69
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>30<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 31
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_31
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_31
+in_chunk_len: 72
+out_chunk_len: 1
+start_token_len: 24
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.042290635}
+mae: 1.11
+maePerMean: 21.53
+mse: 2.29
+mape: 41.6
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>31<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 32
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_32
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_32
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'WS': 0.040657412}
+mae: 1.07
+maePerMean: 20.7
+mse: 2.15
+mape: 43.03
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>32<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 33
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_33
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_33
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 4
+score_back_test: {'WS': 0.04069832}
+mae: 1.07
+maePerMean: 20.72
+mse: 2.13
+mape: 43.92
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>33<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 34
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_34
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_34
+in_chunk_len: 12
+out_chunk_len: 1
+start_token_len: 4
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 4
+score_back_test: {'WS': 0.041030888}
+mae: 1.08
+maePerMean: 20.89
+mse: 2.21
+mape: 44.39
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>34<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 35
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_35
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_35
+in_chunk_len: 12
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 4
+score_back_test: {'WS': 0.041470822}
+mae: 1.09
+maePerMean: 21.11
+mse: 2.25
+mape: 41.18
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>35<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 36
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_36
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_36
+in_chunk_len: 6
+out_chunk_len: 1
+start_token_len: 3
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 4
+score_back_test: {'WS': 0.04142836}
+mae: 1.09
+maePerMean: 21.09
+mse: 2.23
+mape: 44.07
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>36<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 37
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_37
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_37
+in_chunk_len: 16
+out_chunk_len: 1
+start_token_len: 8
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 4
+score_back_test: {'WS': 0.04118759}
+mae: 1.08
+maePerMean: 20.97
+mse: 2.19
+mape: 42.49
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>37<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/A2M_958/history_informer_1.txt
+n_order: 38
+data_path: data/A2M_958/stn_958_1hour_filledmissing.csv
+data_fit: {'target_dim': 1}
+train_end: 2023-06-14 00:00:00
+val_end: 2023-07-15 00:00:00
+model_path: trained_models/informer/A2M_958/Informer_OutChunk_1_Rolling_38
+scaler_path: scalers/informer/A2M_958/Informer_OutChunk_1_Rolling_38
+in_chunk_len: 16
+out_chunk_len: 1
+start_token_len: 8
+sampling_stride: 1
+batch_size: 64
+d_model: 64
+nhead: 32
+score_back_test: {'WS': 0.04165506}
+mae: 1.09
+maePerMean: 21.21
+mse: 2.21
+mape: 45.73
+result_path: results/A2M_958/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>38<<<<<<<<<<<<<<<<<<<<

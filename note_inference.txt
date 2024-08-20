@@ -1,0 +1,6 @@
+
+validation_date: 2022/10/31
+mae: 0.71
+maePerMean: 23.06
+mape: 29.68
+note_path: ./note_inference.txt

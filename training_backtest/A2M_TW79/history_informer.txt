@@ -1,0 +1,902 @@
+
+note_path: training_backtest/history_informer.txt
+n_order: 1
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_1
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_1
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 24
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.10852381}
+mae: 3.74
+mse: 19.13
+mape: 268.8
+>>>>>>>>>>>>>>>>>>>>1<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 2
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_2
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_2
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.07471479}
+mae: 2.58
+mse: 8.11
+mape: 171.34
+>>>>>>>>>>>>>>>>>>>>2<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 3
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_3
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_3
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.08292848}
+mae: 2.86
+mse: 9.52
+mape: 173.54
+>>>>>>>>>>>>>>>>>>>>3<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 4
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_4
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_4
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.076024875}
+mae: 2.62
+mse: 8.31
+mape: 172.06
+>>>>>>>>>>>>>>>>>>>>4<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 5
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_5
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_5
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.08250701}
+mae: 2.85
+mse: 9.44
+mape: 173.45
+>>>>>>>>>>>>>>>>>>>>5<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 6
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_6
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_6
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.07788932}
+mae: 2.69
+mse: 8.61
+mape: 173.1
+>>>>>>>>>>>>>>>>>>>>6<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 7
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 4, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/RNN/TW_79_RNNModel_7
+scaler_path: scalers/RNN/Scaler_TW_79_RNNModel_7
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.03528425}
+mae: 1.22
+mse: 2.06
+mape: 29.18
+>>>>>>>>>>>>>>>>>>>>7<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 8
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 4, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-30 03:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/RNN/TW_79_RNNModel_8
+scaler_path: scalers/RNN/Scaler_TW_79_RNNModel_8
+in_chunk_len: 72
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.004765739}
+mae: 0.16
+mse: 0.04
+mape: 1.22
+>>>>>>>>>>>>>>>>>>>>8<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 9
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_9
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_9
+in_chunk_len: 24
+out_chunk_len: 24
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.048789557}
+mae: 0.89
+mse: 0.99
+mape: 17.92
+>>>>>>>>>>>>>>>>>>>>9<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 10
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-29 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/informer/TW_79_InformerModel_10
+scaler_path: scalers/informer/Scaler_TW_79_InformerModel_10
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.031816475}
+mae: 1.1
+mse: 2.31
+mape: 70.97
+>>>>>>>>>>>>>>>>>>>>10<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 11
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-11-30 03:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/RNN/TW_79_RNNModel_11
+scaler_path: scalers/RNN/Scaler_TW_79_RNNModel_11
+in_chunk_len: 72
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.0070138373}
+mae: 0.24
+mse: 0.07
+mape: 1.8
+>>>>>>>>>>>>>>>>>>>>11<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 12
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/RNN/TW_79_RNNModel_12
+scaler_path: scalers/RNN/Scaler_TW_79_RNNModel_12
+in_chunk_len: 72
+out_chunk_len: 1
+start_token_len: 12
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.032969702}
+mae: 1.14
+mse: 2.28
+mape: 65.79
+>>>>>>>>>>>>>>>>>>>>12<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 13
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_13
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_13
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.03163019}
+mae: 1.09
+mse: 2.49
+mape: 54.32
+>>>>>>>>>>>>>>>>>>>>13<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 14
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_14
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_14
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 64
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.040193688}
+mae: 1.39
+mse: 3.56
+mape: 49.9
+>>>>>>>>>>>>>>>>>>>>14<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 15
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_15
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_15
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 64
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.039673842}
+mae: 1.37
+mse: 3.55
+mape: 47.09
+>>>>>>>>>>>>>>>>>>>>15<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 16
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_16
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_16
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 64
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.031388655}
+mae: 1.08
+mse: 3.12
+mape: 26.06
+>>>>>>>>>>>>>>>>>>>>16<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 17
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_17
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_17
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 64
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.030258983}
+mae: 1.04
+mse: 2.79
+mape: 25.11
+>>>>>>>>>>>>>>>>>>>>17<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 18
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_18
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_18
+in_chunk_len: 1
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.030580677}
+mae: 1.06
+mse: 2.45
+mape: 39.74
+>>>>>>>>>>>>>>>>>>>>18<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 19
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_19
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_19
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.06895953}
+mae: 2.38
+mse: 8.7
+mape: 389.62
+>>>>>>>>>>>>>>>>>>>>19<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 20
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_20
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_20
+in_chunk_len: 2
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.033876296}
+mae: 1.17
+mse: 3.3
+mape: 22.66
+>>>>>>>>>>>>>>>>>>>>20<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 21
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 0, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_21
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_21
+in_chunk_len: 2
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.03206408}
+mae: 1.11
+mse: 2.41
+mape: 64.35
+>>>>>>>>>>>>>>>>>>>>21<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 22
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 0, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_22
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_22
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.031703535}
+mae: 1.09
+mse: 2.45
+mape: 66.21
+>>>>>>>>>>>>>>>>>>>>22<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 23
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 0, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_23
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_23
+in_chunk_len: 1
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.031475917}
+mae: 1.09
+mse: 2.32
+mape: 58.96
+>>>>>>>>>>>>>>>>>>>>23<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 24
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'known_num_dim': 0, 'known_cat_dim': 0, 'observed_num_dim': 0, 'observed_cat_dim': 0, 'static_num_dim': 0, 'static_cat_dim': 0, 'known_cat_size': OrderedDict(), 'observed_cat_size': OrderedDict(), 'static_cat_size': OrderedDict()}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_24
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_24
+in_chunk_len: 3
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.032238547}
+mae: 1.11
+mse: 2.47
+mape: 68.07
+>>>>>>>>>>>>>>>>>>>>24<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 25
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'input_dim': 1, 'known_num_dim': 0, 'observed_num_dim': 0}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_25
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_25
+in_chunk_len: 3
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.03200195}
+mae: 1.1
+mse: 2.47
+mape: 67.17
+>>>>>>>>>>>>>>>>>>>>25<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 26
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'input_dim': 1, 'known_num_dim': 0, 'observed_num_dim': 0}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_26
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_26
+in_chunk_len: 12
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.032607332}
+mae: 1.12
+mse: 2.46
+mape: 103.86
+>>>>>>>>>>>>>>>>>>>>26<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 27
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'input_dim': 1, 'known_num_dim': 0, 'observed_num_dim': 0}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_27
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_27
+in_chunk_len: 12
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.032607332}
+mae: 1.12
+mse: 2.46
+mape: 103.86
+>>>>>>>>>>>>>>>>>>>>27<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 28
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1, 'input_dim': 1, 'known_num_dim': 0, 'observed_num_dim': 0}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_28
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_28
+in_chunk_len: 5
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.029635418}
+mae: 1.02
+mse: 2.25
+mape: 63.63
+>>>>>>>>>>>>>>>>>>>>28<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 29
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_29
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_29
+in_chunk_len: 5
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 512
+nhead: 16
+score_back_test: {'wind_speed': 0.060327362}
+mae: 2.08
+mse: 7.33
+mape: 66.96
+>>>>>>>>>>>>>>>>>>>>29<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 30
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_30
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_30
+in_chunk_len: 5
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.044824053}
+mae: 1.55
+mse: 4.2
+mape: 94.35
+>>>>>>>>>>>>>>>>>>>>30<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 31
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_31
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_31
+in_chunk_len: 2
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.036703132}
+mae: 1.27
+mse: 3.15
+mape: 70.07
+>>>>>>>>>>>>>>>>>>>>31<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 32
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_32
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_32
+in_chunk_len: 2
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.031541977}
+mae: 1.09
+mse: 2.31
+mape: 63.84
+>>>>>>>>>>>>>>>>>>>>32<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 33
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_33
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_33
+in_chunk_len: 24
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.03602036}
+mae: 1.24
+mse: 2.9
+mape: 136.05
+>>>>>>>>>>>>>>>>>>>>33<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 34
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_34
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_34
+in_chunk_len: 12
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.032182615}
+mae: 1.11
+mse: 2.5
+mape: 87.77
+>>>>>>>>>>>>>>>>>>>>34<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 35
+data_path: data/TW_0079_data_FirstHourlyResample_2022-12-31.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-30 00:00
+val_end: 2022-12-02 00:00
+test_end: 2022-12-02 00:00
+model_path: trained_models/test/TW_79_RNNModel_35
+scaler_path: scalers/test/Scaler_TW_79_RNNModel_35
+in_chunk_len: 4
+out_chunk_len: 1
+start_token_len: 1
+sampling_stride: 1
+batch_zize: 256
+d_model: 32
+nhead: 16
+score_back_test: {'wind_speed': 0.031691875}
+mae: 1.09
+mse: 2.43
+mape: 69.85
+>>>>>>>>>>>>>>>>>>>>35<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 36
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/35_75_126_5_InformerModel_36
+scaler_path: scalers/informer/35_75_126_5_InformerModel_36
+in_chunk_len: 216
+out_chunk_len: 24
+start_token_len: 96
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.0533276}
+mae: 0.97
+mse: 1.03
+mape: 22.27
+result_path: results/35_75_126_5_InformerModel_36.xlsx
+>>>>>>>>>>>>>>>>>>>>36<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 37
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/35_75_126_5_InformerModel_37
+scaler_path: scalers/informer/35_75_126_5_InformerModel_37
+in_chunk_len: 216
+out_chunk_len: 12
+start_token_len: 96
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.055082995}
+mae: 1.0
+mse: 1.09
+mape: 21.78
+result_path: results/35_75_126_5_InformerModel_3_36.xlsx
+>>>>>>>>>>>>>>>>>>>>37<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 38
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/35_75_126_5_InformerModel_38
+scaler_path: scalers/informer/35_75_126_5_InformerModel_38
+in_chunk_len: 216
+out_chunk_len: 6
+start_token_len: 96
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.014796944}
+mae: 0.27
+mse: 0.12
+mape: 5.98
+result_path: results/35_75_126_5_InformerModel_3_36.xlsx
+>>>>>>>>>>>>>>>>>>>>38<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 39
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/35_75_126_5_InformerModel_39
+scaler_path: scalers/informer/35_75_126_5_InformerModel_39
+in_chunk_len: 216
+out_chunk_len: 4
+start_token_len: 96
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.010911711}
+mae: 0.2
+mse: 0.06
+mape: 4.16
+result_path: results/35_75_126_5_InformerModel_3_36.xlsx
+>>>>>>>>>>>>>>>>>>>>39<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 40
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/35_75_126_5_InformerModel_40
+scaler_path: scalers/informer/35_75_126_5_InformerModel_40
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.0088245375}
+mae: 0.16
+mse: 0.04
+mape: 3.6
+result_path: results/35_75_126_5_InformerModel_4_36.xlsx
+>>>>>>>>>>>>>>>>>>>>40<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer.txt
+n_order: 41
+data_path: data/35_75_126_5_extract_5years.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00
+val_end: 2022-12-08 00:00
+model_path: trained_models/informer/InformerModel_41
+scaler_path: scalers/informer/InformerModel_41
+in_chunk_len: 216
+out_chunk_len: 24
+start_token_len: 96
+sampling_stride: 24
+batch_zize: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.05607901}
+mae: 1.02
+mse: 1.49
+mape: 25.33
+result_path: results/InformerModel_4_36.xlsx
+>>>>>>>>>>>>>>>>>>>>41<<<<<<<<<<<<<<<<<<<<

@@ -1,0 +1,690 @@
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 1
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-29 00:00:00
+val_end: 2022-11-30 00:00:00
+model_path: trained_models/informer/Informer_1
+scaler_path: scalers/informer/Informer_1
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.06746593}
+mae: 1.28
+maePerMean: 10.13
+mse: 3.06
+mape: 11.86
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>1<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 2
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-28 00:00:00
+val_end: 2022-11-29 00:00:00
+model_path: trained_models/informer/Informer_2
+scaler_path: scalers/informer/Informer_2
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.05848204}
+mae: 1.11
+maePerMean: 20.92
+mse: 1.73
+mape: 26.15
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>2<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 3
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-27 00:00:00
+val_end: 2022-11-28 00:00:00
+model_path: trained_models/informer/Informer_3
+scaler_path: scalers/informer/Informer_3
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.048212696}
+mae: 0.91
+maePerMean: 20.92
+mse: 1.69
+mape: 58.54
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>3<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 4
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-26 00:00:00
+val_end: 2022-11-27 00:00:00
+model_path: trained_models/informer/Informer_4
+scaler_path: scalers/informer/Informer_4
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.04461677}
+mae: 0.84
+maePerMean: 12.0
+mse: 1.08
+mape: 14.67
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>4<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 5
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-25 00:00:00
+val_end: 2022-11-26 00:00:00
+model_path: trained_models/informer/Informer_5
+scaler_path: scalers/informer/Informer_5
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.035913166}
+mae: 0.68
+maePerMean: 15.57
+mse: 0.77
+mape: 17.67
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>5<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 6
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-24 00:00:00
+val_end: 2022-11-25 00:00:00
+model_path: trained_models/informer/Informer_6
+scaler_path: scalers/informer/Informer_6
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03769478}
+mae: 0.71
+maePerMean: 19.98
+mse: 0.87
+mape: 44.35
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>6<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 7
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-23 00:00:00
+val_end: 2022-11-24 00:00:00
+model_path: trained_models/informer/Informer_7
+scaler_path: scalers/informer/Informer_7
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03679627}
+mae: 0.7
+maePerMean: 9.55
+mse: 0.85
+mape: 10.38
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>7<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 8
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-22 00:00:00
+val_end: 2022-11-23 00:00:00
+model_path: trained_models/informer/Informer_8
+scaler_path: scalers/informer/Informer_8
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.041350856}
+mae: 0.78
+maePerMean: 14.87
+mse: 0.93
+mape: 14.9
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>8<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 9
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-21 00:00:00
+val_end: 2022-11-22 00:00:00
+model_path: trained_models/informer/Informer_9
+scaler_path: scalers/informer/Informer_9
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.04744153}
+mae: 0.9
+maePerMean: 36.34
+mse: 1.13
+mape: 65.91
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>9<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 10
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-20 00:00:00
+val_end: 2022-11-21 00:00:00
+model_path: trained_models/informer/Informer_10
+scaler_path: scalers/informer/Informer_10
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03338928}
+mae: 0.63
+maePerMean: 22.78
+mse: 0.58
+mape: 26.89
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>10<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 11
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-19 00:00:00
+val_end: 2022-11-20 00:00:00
+model_path: trained_models/informer/Informer_11
+scaler_path: scalers/informer/Informer_11
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.037079677}
+mae: 0.7
+maePerMean: 17.66
+mse: 0.64
+mape: 19.7
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>11<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 12
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-18 00:00:00
+val_end: 2022-11-19 00:00:00
+model_path: trained_models/informer/Informer_12
+scaler_path: scalers/informer/Informer_12
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.040870946}
+mae: 0.77
+maePerMean: 15.36
+mse: 0.77
+mape: 16.97
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>12<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 13
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-17 00:00:00
+val_end: 2022-11-18 00:00:00
+model_path: trained_models/informer/Informer_13
+scaler_path: scalers/informer/Informer_13
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.033815622}
+mae: 0.64
+maePerMean: 13.59
+mse: 0.52
+mape: 13.69
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>13<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 14
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-16 00:00:00
+val_end: 2022-11-17 00:00:00
+model_path: trained_models/informer/Informer_14
+scaler_path: scalers/informer/Informer_14
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.02693527}
+mae: 0.51
+maePerMean: 10.46
+mse: 0.44
+mape: 10.61
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>14<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 15
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-15 00:00:00
+val_end: 2022-11-16 00:00:00
+model_path: trained_models/informer/Informer_15
+scaler_path: scalers/informer/Informer_15
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.036710985}
+mae: 0.69
+maePerMean: 13.99
+mse: 0.68
+mape: 17.6
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>15<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 16
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-14 00:00:00
+val_end: 2022-11-15 00:00:00
+model_path: trained_models/informer/Informer_16
+scaler_path: scalers/informer/Informer_16
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.046710536}
+mae: 0.88
+maePerMean: 16.2
+mse: 1.94
+mape: 27.79
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>16<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 17
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-13 00:00:00
+val_end: 2022-11-14 00:00:00
+model_path: trained_models/informer/Informer_17
+scaler_path: scalers/informer/Informer_17
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.031626355}
+mae: 0.6
+maePerMean: 7.2
+mse: 0.77
+mape: 9.42
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>17<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 18
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-12 00:00:00
+val_end: 2022-11-13 00:00:00
+model_path: trained_models/informer/Informer_18
+scaler_path: scalers/informer/Informer_18
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.04381163}
+mae: 0.83
+maePerMean: 14.93
+mse: 0.97
+mape: 18.5
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>18<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 19
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-11 00:00:00
+val_end: 2022-11-12 00:00:00
+model_path: trained_models/informer/Informer_19
+scaler_path: scalers/informer/Informer_19
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.043224733}
+mae: 0.82
+maePerMean: 22.95
+mse: 1.37
+mape: 48.57
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>19<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 20
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-10 00:00:00
+val_end: 2022-11-11 00:00:00
+model_path: trained_models/informer/Informer_20
+scaler_path: scalers/informer/Informer_20
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03870119}
+mae: 0.73
+maePerMean: 20.14
+mse: 0.77
+mape: 21.36
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>20<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 21
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-09 00:00:00
+val_end: 2022-11-10 00:00:00
+model_path: trained_models/informer/Informer_21
+scaler_path: scalers/informer/Informer_21
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.033460353}
+mae: 0.63
+maePerMean: 20.46
+mse: 0.68
+mape: 21.26
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>21<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 22
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-08 00:00:00
+val_end: 2022-11-09 00:00:00
+model_path: trained_models/informer/Informer_22
+scaler_path: scalers/informer/Informer_22
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.02523386}
+mae: 0.48
+maePerMean: 17.16
+mse: 0.32
+mape: 19.74
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>22<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 23
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-07 00:00:00
+val_end: 2022-11-08 00:00:00
+model_path: trained_models/informer/Informer_23
+scaler_path: scalers/informer/Informer_23
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.031573072}
+mae: 0.6
+maePerMean: 21.67
+mse: 0.56
+mape: 64.25
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>23<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 24
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-06 00:00:00
+val_end: 2022-11-07 00:00:00
+model_path: trained_models/informer/Informer_24
+scaler_path: scalers/informer/Informer_24
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.024238259}
+mae: 0.46
+maePerMean: 13.09
+mse: 0.41
+mape: 12.37
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>24<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 25
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-05 00:00:00
+val_end: 2022-11-06 00:00:00
+model_path: trained_models/informer/Informer_25
+scaler_path: scalers/informer/Informer_25
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03833789}
+mae: 0.73
+maePerMean: 17.73
+mse: 0.99
+mape: 21.01
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>25<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 26
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-04 00:00:00
+val_end: 2022-11-05 00:00:00
+model_path: trained_models/informer/Informer_26
+scaler_path: scalers/informer/Informer_26
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.029937098}
+mae: 0.57
+maePerMean: 6.0
+mse: 0.54
+mape: 6.12
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>26<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 27
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-03 00:00:00
+val_end: 2022-11-04 00:00:00
+model_path: trained_models/informer/Informer_27
+scaler_path: scalers/informer/Informer_27
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03427972}
+mae: 0.65
+maePerMean: 10.67
+mse: 1.0
+mape: 12.35
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>27<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 28
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-02 00:00:00
+val_end: 2022-11-03 00:00:00
+model_path: trained_models/informer/Informer_28
+scaler_path: scalers/informer/Informer_28
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.042739768}
+mae: 0.81
+maePerMean: 13.97
+mse: 0.85
+mape: 15.68
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>28<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 29
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-11-01 00:00:00
+val_end: 2022-11-02 00:00:00
+model_path: trained_models/informer/Informer_29
+scaler_path: scalers/informer/Informer_29
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03226639}
+mae: 0.61
+maePerMean: 13.21
+mse: 0.62
+mape: 15.44
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>29<<<<<<<<<<<<<<<<<<<<
+
+note_path: training_backtest/history_informer_1.txt
+n_order: 30
+data_path: data/A2M_TW79/TW_0079_data_FillByERA5_Interpolate.csv
+data_fit: {'target_dim': 1}
+train_end: 2022-10-31 00:00:00
+val_end: 2022-11-01 00:00:00
+model_path: trained_models/informer/Informer_30
+scaler_path: scalers/informer/Informer_30
+in_chunk_len: 216
+out_chunk_len: 1
+start_token_len: 96
+sampling_stride: 1
+batch_size: 64
+d_model: 32
+nhead: 4
+score_back_test: {'wind_speed': 0.03773557}
+mae: 0.71
+maePerMean: 23.04
+mse: 0.73
+mape: 29.7
+result_path: results/rolling_out_chunk_1.xlsx
+>>>>>>>>>>>>>>>>>>>>30<<<<<<<<<<<<<<<<<<<<
