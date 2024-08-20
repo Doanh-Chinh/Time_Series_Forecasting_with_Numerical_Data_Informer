@@ -32,13 +32,13 @@ A Deep Learning Approach to Wind Speed Forecasting
 - python TW_ALL_Informer.py --dp a2m_79 --in_len 216 --out_len 24
 
 ### More parameter information please refer to `TW_ALL_Informer.py`. The detail is listed here:
-"--dp", required=False, default="a2m_79", help="path to the dataset"
-"--mp", required=False, default="trained_models/informer/", help="path to the model"
-"--in_len", type=int, required=False, default=216, help="number of timesteps to be included in the input, eg. 216 hours"
-"--out_len", type=int, required=False, default=24, help="out chunk len which model predicts, e.g. '1'"
-"--token_len", type=int, required=False, default=4*24, help="start token length of Informer decoder"
-"--d_model", type=int, required=False, default=32, help="the expected feature size for the input/output of the informer’s encoder/decoder"
-"--n_head", type=int, required=False, default=4, help="the number of heads in the multi-head attention mechanism"
+- "--dp", required=False, default="a2m_79", help="path to the dataset"
+- "--mp", required=False, default="trained_models/informer/", help="path to the model"
+- "--in_len", type=int, required=False, default=216, help="number of timesteps to be included in the input, eg. 216 hours"
+- "--out_len", type=int, required=False, default=24, help="out chunk len which model predicts, e.g. '1'"
+- "--token_len", type=int, required=False, default=4*24, help="start token length of Informer decoder"
+- "--d_model", type=int, required=False, default=32, help="the expected feature size for the input/output of the informer’s encoder/decoder"
+- "--n_head", type=int, required=False, default=4, help="the number of heads in the multi-head attention mechanism"
 
 ## More detail about Informer model refering to:
 - https://github.com/zhouhaoyi/Informer2020
