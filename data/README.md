@@ -3,11 +3,13 @@ The dataset we used in the experiment is the TW_79 dataset, which consists of si
 
 ![Screenshot](TW79-WindSpeedData.png)
 
+<p align="center">Data after preprocessing</p>
+
 ## Data Preprocessing
 
 ![Screenshot](PreprocessingFramework.png)
 
-<center>Data pre-processing framework</center>
+<p align="center">Data pre-processing framework</p>
 
 **Step 1**: Remove duplicate rows based on the datetime column.
 
